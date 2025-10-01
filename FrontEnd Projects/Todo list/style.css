@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #e0f7fa;
+}
+
+h2{
+    text-align: center;
+}
+
+form{
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+form div{
+    margin-bottom: 10px;
+}
+
+table{
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+table, th, td{
+    border: 1px solid #333;
+}
+
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+
+.btn{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-btn{
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+#save-btn {
+    width: 100%;
+    background-color: #8ef5d6;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+}

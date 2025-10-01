@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>student form</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <h2>STUDENT FORM</h2>
+
+    <!--create a form-->
+
+    <form id="studentForm">
+
+        <div>
+            <label>Name</label><br>
+            <input type="text" id="name" required />
+        </div>
+
+        <div>
+            <label>Age</label><br>
+            <input type="number" id="age" required />
+        </div>
+
+        <div>
+            <label>Gender</label><br>
+            <input type="radio" name="gender" value="Male" checked />Male
+            <input type="radio" name="gender" value="Female" />Female
+        </div>
+
+        <div>
+            <label>Courses</label><br>
+            <select name="" id="course">
+            <option value="Python">Python</option>
+            <option value="jaVASCRIPT">Javascript</option>
+            <option value="React">React</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Email</label><br>
+            <input type="email" id="email" required />
+        </div>
+
+        <div>
+            <button type="submit" id="save-btn">Save</button>
+        </div>
+
+    </form>
+
+    <!--create a table for storing a data-->
+
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>COURSE</th>
+                <th>GENDER</th>
+                <th>EMAIL</th>
+                <th>ACTION</th>
+            </tr>
+        </thead>
+
+        <!--this for after action save-->
+
+        <tbody></tbody>
+        
+    </table>
+
+    <script src  = "script.js"></script>
+</body>
+</html>
